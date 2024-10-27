@@ -1,0 +1,74 @@
+{
+    "name": "DialogueControls",
+    "maps": [
+        {
+            "name": "Text",
+            "id": "6a732635-1f44-456f-a747-6518953974e1",
+            "actions": [
+                {
+                    "name": "AdvanceDialogue",
+                    "type": "Button",
+                    "id": "18950010-5b52-4675-ab51-7a9da0f392e0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "BackDialogue",
+                    "type": "Button",
+                    "id": "105314a4-5c21-4505-8062-a2c4fc948cdd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SkipDialogue",
+                    "type": "Button",
+                    "id": "a26517df-3a01-487b-9d72-7cee83dda1fc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8848a56a-59ff-4b35-b6f5-76a7cdcb87b7",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AdvanceDialogue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d7366ac0-f86c-4f92-99a7-57c9c1d1702c",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BackDialogue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e31a45e-8fde-4e49-b4dc-ae0d0a951665",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SkipDialogue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
